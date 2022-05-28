@@ -1,3 +1,347 @@
 body{ 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'Roboto';
+    color: #E5E5E5;
+    
+}
+
+/*-------шапка главная-------------*/
+
+.header-glavna { background: #FFFFFF;
+    
+}
+.header-glavna-logo {
+}
+.header-glavna-nav {
+}
+.header-glavna-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;;
+}
+.header-glavna-link :hover {color: #2196F3;}
+.header-glavna-link :focus {color: #2196F3;}
+
+.header-glavna-link-links {
+}
+.header-glavna-contact {
+    
+}
+.header-glavna-contacnlink {
+}
+.header-glavna-contacnlink :hover {color: #2196F3;}
+.header-glavna-tel {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+/*-------кнопка-------------*/
+.section-glavna-button { background: #212121;
+}
+.section-glavna-button-logo {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+.sec-glavna-button {
+    background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+        
+            color: #FFFFFF;
+}
+
+/*-------первая секция-------------*/
+.section-odin {
+    background: #E5E5E5;
+}
+.section-odin-list {
+}
+.section-odin-list-link {
+}
+.section-odin-logo {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.section-odin-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/*-------секция с фото-------------*/
+.glavna-photo { background: #E5E5E5;
+}
+.glavna-photo-logo {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.glavna-photo-link {
+}
+.glavna-photo-lins {
+}
+
+/*-------наша команда-------------*/
+.comanda { background: #F5F4FA;
+}
+.comanda-logo {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.comanda-link {
+}
+.comanda-lins {
+}
+.comanda-mini-logo {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.comanda-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/*-------концовка-------------*/
+.footer-glavna {background: #2F303A;
+}
+.footer-glavna-logo {
+}
+.footer-glavna-adress {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.footer-glavna-link {
+}
+.footer-glavna-tel:hover {
+    color: #2196F3;
+}
+.footer-glavna-lins {
+}
+.footer-glavna-tel {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------портфолио-------------*/
+
+
+/*--секция шапка портфолио ---*/
+.header{background:#FFFFFF ;
+
+ }
+
+.header-logo{
+
+}
+
+.header-nav{
+
+}
+.header-list {}
+
+.header-li {}
+
+
+.header-li :hover { color: #2196F3; }
+
+.header-a{ font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+
+}
+
+.header-mail {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+
+
+/*--секция 1 портфолио ---*/
+.section-button {background: #E5E5E5;
+}
+.section-ul :hover {color: #2196F3;}
+.section-ul {
+}
+
+
+
+.section-li {
+}
+.section-butn {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;}
+
+
+    
+/*--секция галерея портфолио ---*/
+.section-galeri { background: #E5E5E5;
+}
+.section-galeri-ul {
+}
+.section-galeri-list {
+}
+.section-galeri-logo {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+.section-galeri-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+/*--секция конец портфолио ---*/
+.footer {background: #2F303A ;
+}
+.footer-logo {
+}
+.footer-adress {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.footer-ul {
+}
+.footer-list {
+}
+.footer-tel {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
 }
