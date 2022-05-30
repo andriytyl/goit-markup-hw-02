@@ -1,5 +1,5 @@
 body{ 
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #E5E5E5;
     
 }
@@ -10,12 +10,25 @@ body{
     
 }
 .header-glavna-logo {
+    font-family: 'Raleway';
+
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
 }
 .header-glavna-nav {
+    
 }
 .header-glavna-link {
-    font-family: 'Roboto';
-    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+
+  
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -26,32 +39,31 @@ body{
 .header-glavna-link :hover {color: #2196F3;}
 .header-glavna-link :focus {color: #2196F3;}
 
-.header-glavna-link-links {
+.header-glavna-link-links { 
 }
 .header-glavna-contact {
     
 }
-.header-glavna-contacnlink {
+.header-glavna-contacnlink { list-style: none
 }
 .header-glavna-contacnlink :hover {color: #2196F3;}
-.header-glavna-tel {font-family: 'Roboto';
-    font-style: normal;
+.header-glavna-tel {
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     
     color: #757575;
 }
 /*-------кнопка-------------*/
-.section-glavna-button { background: #212121;
+.section-glavna-button { background-color: #2F303A;
 }
 .section-glavna-button-logo {
-    font-family: 'Roboto';
-        font-style: normal;
+    
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -60,14 +72,14 @@ body{
 }
 .sec-glavna-button {
     background: #2196F3;
+    cursor: pointer;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         
-        font-family: 'Roboto';
-            font-style: normal;
+        
             font-weight: 700;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.9;
             display: flex;
             align-items: center;
             text-align: center;
@@ -78,27 +90,25 @@ body{
 
 /*-------первая секция-------------*/
 .section-odin {
-    background: #E5E5E5;
+    background-color: #FFFFFF;
 }
 .section-odin-list {
 }
 .section-odin-list-link {
 }
-.section-odin-logo {font-family: 'Roboto';
-    font-style: normal;
+.section-odin-logo {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: #212121;
 }
-.section-odin-text {font-family: 'Roboto';
-    font-style: normal;
+.section-odin-text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 
     letter-spacing: 0.03em;
 
@@ -108,14 +118,12 @@ body{
 /*-------секция с фото-------------*/
 .glavna-photo { background: #E5E5E5;
 }
-.glavna-photo-logo {font-family: 'Roboto';
-    font-style: normal;
+.glavna-photo-logo {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
 .glavna-photo-link {
@@ -124,39 +132,32 @@ body{
 }
 
 /*-------наша команда-------------*/
-.comanda { background: #F5F4FA;
+.comanda { background-color: #F5F4FA;
 }
-.comanda-logo {font-family: 'Roboto';
-    font-style: normal;
+.comanda-logo {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
 .comanda-link {
 }
 .comanda-lins {
 }
-.comanda-mini-logo {font-family: 'Roboto';
-    font-style: normal;
+.comanda-mini-logo {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
-.comanda-text {font-family: 'Roboto';
-    font-style: normal;
+.comanda-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     /* identical to box height */
 
     text-align: center;
@@ -166,15 +167,20 @@ body{
 }
 
 /*-------концовка-------------*/
-.footer-glavna {background: #2F303A;
+.footer-glavna {background-color: #2F303A;
 }
-.footer-glavna-logo {
+.footer-glavna-logo { font-family: 'Raleway';
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
-.footer-glavna-adress {font-family: 'Roboto';
-    font-style: normal;
+.footer-glavna-adress {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -188,11 +194,10 @@ body{
 }
 .footer-glavna-lins {
 }
-.footer-glavna-tel {font-family: 'Roboto';
-    font-style: normal;
+.footer-glavna-tel {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -218,11 +223,18 @@ body{
 
 
 /*--секция шапка портфолио ---*/
-.header{background:#FFFFFF ;
+.header{background-color:#FFFFFF ;
 
  }
 
-.header-logo{
+.header-logo{ font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
 
 }
 
@@ -231,28 +243,29 @@ body{
 }
 .header-list {}
 
-.header-li {}
+.header-li { list-style: none}
 
 
 .header-li :hover { color: #2196F3; }
 
-.header-a{ font-family: 'Roboto';
-    font-style: normal;
+.header-a{ 
+    
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: #212121;
 
 }
+.header-contacs {list-style: none;}
 
-.header-mail {
-    font-family: 'Roboto';
-font-style: normal;
+.header-mail { text-decoration: none;
+    list-style: none;
+   
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: #757575;
@@ -261,21 +274,27 @@ color: #757575;
 
 
 /*--секция 1 портфолио ---*/
-.section-button {background: #E5E5E5;
-}
-.section-ul :hover {color: #2196F3;}
-.section-ul {
+.section-button {background-color: #ffff;
 }
 
-
-
-.section-li {
+.section-ul { list-style: none;
+    
 }
-.section-butn {font-family: 'Roboto';
-    font-style: normal;
+.section-li .section-ul :hover {
+    color: #ffff;
+}
+
+.section-li :hover {
+    background-color: #2196F3;
+}
+.section-li { 
+}
+
+.section-butn {
+    background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     /* identical to box height, or 162% */
 
     text-align: center;
@@ -292,22 +311,20 @@ color: #757575;
 }
 .section-galeri-list {
 }
-.section-galeri-logo {font-family: 'Roboto';
-    font-style: normal;
+.section-galeri-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     /* identical to box height, or 200% */
 
     letter-spacing: 0.06em;
 
     color: #212121;
 }
-.section-galeri-text {font-family: 'Roboto';
-    font-style: normal;
+.section-galeri-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     /* identical to box height, or 188% */
 
     letter-spacing: 0.03em;
@@ -317,30 +334,34 @@ color: #757575;
 /*--секция конец портфолио ---*/
 .footer {background: #2F303A ;
 }
-.footer-logo {
-}
-.footer-adress {font-family: 'Roboto';
+.footer-logo {font-family: 'Raleway';
     font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+.footer-adress {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
+    line-height: 1.7;
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
 }
 .footer-ul {
 }
-.footer-list {
+.footer-list {list-style: none;
 }
-.footer-tel {font-family: 'Roboto';
-    font-style: normal;
+.footer-tel {
+    text-decoration: none;
+    
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
+    line-height: 1.7;
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
