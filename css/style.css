@@ -2,14 +2,16 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #E5E5E5;
     
+    
 }
 
 /*-------шапка главная-------------*/
 
-.header-glavna { background: #FFFFFF;
+.header-home { background: #FFFFFF;
     
 }
-.header-glavna-logo {
+.header-home-logo {
+    
     font-family: 'Raleway';
 
 font-weight: 700;
@@ -18,11 +20,17 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 
 color: #2196F3;
+text-decoration: none;
+
 }
-.header-glavna-nav {
+
+
+
+.logo-span{color: #000000;}
+.header-home-nav {
     
 }
-.header-glavna-link {
+.header-home-link {
     list-style: none;
     text-decoration: none;
 
@@ -32,20 +40,25 @@ color: #2196F3;
     line-height: 16px;
     letter-spacing: 0.02em;
     
-    color: #212121;;
+    color: #212121;
+    cursor: pointer;
 }
-.header-glavna-link :hover {color: #2196F3;}
-.header-glavna-link :focus {color: #2196F3;}
+.header-home-link :hover {color: #2196F3;}
+.header-home-link :focus {
+    color: #2196F3;
+}
 
-.header-glavna-link-links { 
+.header-home-link-links { 
 }
-.header-glavna-contact {
+.header-home-a {color: #212121;
+text-decoration: none;}
+.header-home-contact {
     
 }
-.header-glavna-contacnlink { list-style: none
+.header-home-contacnlink { list-style: none
 }
-.header-glavna-contacnlink :hover {color: #2196F3;}
-.header-glavna-tel {
+.header-home-contacnlink :hover {color: #2196F3;}
+.header-home-tel {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -55,9 +68,9 @@ color: #2196F3;
     color: #757575;
 }
 /*-------кнопка-------------*/
-.section-glavna-button { background-color: #2F303A;
+.section-home-button { background-color: #2F303A;
 }
-.section-glavna-button-logo {
+.section-home-button-logo {
     
         font-weight: 900;
         font-size: 44px;
@@ -68,7 +81,7 @@ color: #2196F3;
     
         color: #FFFFFF;
 }
-.sec-glavna-button {
+.sec-home-button {
     background: #2196F3;
     cursor: pointer;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -87,14 +100,14 @@ color: #2196F3;
 }
 
 /*-------первая секция-------------*/
-.section-odin {
+.section-one {
     background-color: #FFFFFF;
 }
-.section-odin-list {
+.section-one-list {
 }
-.section-odin-list-link {
+.section-one-list-link {
 }
-.section-odin-logo {
+.section-one-logo {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -103,7 +116,7 @@ color: #2196F3;
 
     color: #212121;
 }
-.section-odin-text {
+.section-one-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -114,9 +127,9 @@ color: #2196F3;
 }
 
 /*-------секция с фото-------------*/
-.glavna-photo { background: #E5E5E5;
+.home-photo { background-color: #FFFFFF;
 }
-.glavna-photo-logo {
+.home-photo-logo {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17
@@ -124,9 +137,9 @@ color: #2196F3;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.glavna-photo-link {
+.home-photo-link {
 }
-.glavna-photo-lins {
+.home-photo-lins {
 }
 
 /*-------наша команда-------------*/
@@ -165,17 +178,22 @@ color: #2196F3;
 }
 
 /*-------концовка-------------*/
-.footer-glavna {background-color: #2F303A;
+.footer-home {background-color: #2F303A;
+    text-decoration: none;
+    
 }
-.footer-glavna-logo { font-family: 'Raleway';
+.footer-home-logo { font-family: 'Raleway';
     
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+    text-decoration: none;
 }
-.footer-glavna-adress {
+.footer-spen {color: #000000;}
+
+.footer-home-adress {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -185,14 +203,17 @@ color: #2196F3;
 
     color: #FFFFFF;
 }
-.footer-glavna-link {
+.footer-home-link {
 }
-.footer-glavna-tel:hover {
+.footer-home-tel:hover {
     color: #2196F3;
 }
-.footer-glavna-lins {
+.footer-home-lins {list-style: none;
 }
-.footer-glavna-tel {
+.footer-home-tel {
+    text-decoration: none;
+        
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -233,20 +254,24 @@ color: #2196F3;
     letter-spacing: 0.03em;
 
     color: #2196F3;
+    text-decoration: none;
 
 }
+.logo-span-portfolio{color: #000000;}
 
 .header-nav{
 
 }
 .header-list {}
 
-.header-li { list-style: none}
+.header-li { list-style: none;
+    
+}
 
 
 .header-li :hover { color: #2196F3; }
 
-.header-a{ 
+.header-a{ text-decoration: none;
     
     font-weight: 500;
     font-size: 14px;
@@ -343,6 +368,8 @@ color: #757575;
     letter-spacing: 0.03em;
 
     color: #2196F3;
+    text-decoration: none;
+
 }
 .footer-adress {
     font-weight: 400;
