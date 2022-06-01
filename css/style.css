@@ -43,11 +43,15 @@ text-decoration: none;
     color: #212121;
     cursor: pointer;
 }
+.header-li{}
+
+.header-list{}
 
 .header-home-a:hover {color: #2196F3;}
 .header-home-a:focus {
     color: #2196F3;}
-.header-home-a:active {color: #2196F3;}
+    
+.active:active {color: #068bf8;}
 
 
 .header-home-link-links { 
@@ -273,9 +277,14 @@ text-align: center;
 }
 
 
+
 .header-a:hover { color: #2196F3; }
 .header-a:future {color: #2196F3; }
-.header-a{ text-decoration: none;
+.header-active:active {
+    color: #2196F3;
+}
+.header-a { text-decoration: none;
+    
     
     font-weight: 500;
     font-size: 14px;
