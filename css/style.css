@@ -52,6 +52,17 @@ text-decoration: none;
     color: #2196F3;}
     
 .active:active {color: #068bf8;}
+.active {list-style: none;
+    text-decoration: none;
+
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    
+    cursor: pointer;}
 
 
 .header-home-link-links { 
@@ -92,7 +103,7 @@ text-decoration: none;}
     cursor: pointer;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        
+      font-family: inherit;
         
             font-weight: 700;
             font-size: 16px;
@@ -283,6 +294,13 @@ text-align: center;
 .header-active:active {
     color: #2196F3;
 }
+.header-active{text-decoration: none;
+
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
 .header-a { text-decoration: none;
     
     
@@ -337,8 +355,7 @@ color: #757575;
 .section-butn {
     
     background-color: #F5F4FA;
-    font-family: 'Roboto';
-        font-style: normal;
+     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
